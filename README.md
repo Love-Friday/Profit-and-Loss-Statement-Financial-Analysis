@@ -14,6 +14,50 @@ The dataset I will be working with includes the following columns:
 4. Account Name: The specific account associated with the transaction (e.g., Salaries, Loan, Income).
 5. Amount (NGN): the monetary amount of the transaction, in Nigerian Naira.
 
+##Data Organization:
+- First, I ensured the dataset was properly organized, with columns for Date, Branch, Account Category, Account Name, and Amount.
+- I extracted additional columns like Year and Month from the Date column to facilitate time-based analysis.
+
+ ## Data Cleaning
+As part of the data preparation process, I performed thorough data cleaning to ensure the dataset's accuracy and reliability. One of the key steps involved identifying and handling duplicate entries, which could lead to skewed results if left unchecked.
+Steps Taken in Data Cleaning:
+1. Data Inspection and Preparation: inspected the dataset to identify any inconsistencies, such as missing values or erroneous entries.
+2. Searched for Duplicates: I used Excel’s built-in Duplicate Removal and Conditional Formatting features to identify duplicates. After applying the duplicate search, I discovered a total of 9 duplicate entries within the dataset.
+    - Handling Duplicates: removed them from the dataset to ensure that each financial record was unique and accurately represented.
+3.  Re-validation and Final Review
+    - After removing the duplicates, I re-checked the dataset for any additional anomalies and ensured that no important data was lost during the cleaning process.
+    - The cleaned dataset was then ready for further analysis using Pivot Tables and other methods to extract meaningful financial insights.
+
+## Using Pivot Tables for Data Summarization and Financial Analysis
+In this project, I applied Pivot Tables to efficiently summarize and analyze the financial dataset. The dataset contained various financial metrics, including revenue, expenses, income, and amortization, spread across multiple rows and categories. By using Pivot Tables, I was able to quickly aggregate and summarize key financial figures, enabling me to calculate essential performance indicators.
+
+#### Steps Taken:
+1. Data Organization:
+
+First, I ensured the dataset was properly organized, with columns for Date, Branch, Account Category, Account Name, and Amount.
+I extracted additional columns like Year and Month from the Date column to facilitate time-based analysis.
+Pivot Table Creation:
+
+I created a Pivot Table to summarize the financial data across different dimensions such as Revenue, Cost of Goods Sold (COGS), Operating Expenses, and Other Income/Expenses.
+I placed Account Category in the Rows section of the Pivot Table to group data by categories (e.g., Revenue, COGS, Depreciation and Amortization, Operating Expenses, Other Income, etc.).
+
+
+## Data Structure
+
+| Column            | Data Type           | Constraints                        |
+|-------------------|---------------------|------------------------------------|
+| Patient_ID        | INT                 | PRIMARY KEY, AUTO- INCREMENT       |
+| Full_Name         | VARCHAR (100)       | NOT NULL                           |
+| Gender            | CHAR (1)            | CHECK IN ('M', 'F'), NOT NULL      |
+| Date_Of_Birth     | DATE                | NOT NULL                           |
+| Marital_Status    | CHAR (1)            | CHECCK IN ('M', 'S', 'D'), NOT NULL|
+| Address           | VARCHAR (150)       | NOT NULL                           |
+| State             | VARCHAR (30)        | NOT NULL                           |
+| Phone_Number      | CHAR (11)           | UNIQUE, NOT NULL                   |
+| Email_Address     | VARCHAR (100)       | UNIQUE, NOT NULL                   |
+|HMO_Insurance      | VARCHAR (20)        |                                    |
+
+
 
 ### To Calculate Gross Profit 
 - Gross Profit Formula is
@@ -67,11 +111,39 @@ Interpretation:
 A Net Profit Margin of 157.1% suggests that your Net Profit is more than one and a half times your Revenue, which is highly unusual. This indicates that the company's expenses (including operating expenses, interest, taxes, etc.) are extremely low relative to the revenue, or there might be other extraordinary income or factors influencing this figure.
 
 ### To Calculate Cost of Goods Sold Ratio(COGS) 
-- Cost of Goods Sold Ratio shows the proportion of revenue that is spent on producing goods or services
-- Formula: COGS Ratio = Cost of Goods Sold(COGS)/ Revenue * 100 
+- Cost of Goods Sold (COGS) Ratio measures the proportion of a company's revenue that goes toward covering the cost of producing or acquiring the goods it sells. It is calculated by dividing COGS by Revenue.
+- Formula: COGS Ratio = Cost of Goods Sold(COGS)/ Revenue * 100
+   - Steps
+- COGS: -₦3,712,506,264.00 (negative because it's an expense).
+- Revenue: ₦8,945,729,507.00.
+- COGS Ratio = −₦3,712,506,264.00 / ₦8,945,729,507.00 = −0.414
+- COGS Ratio= −0.414 × 100 = −41.4%
+
+Interpretation:
+A COGS Ratio of -41.4% means that 41.4% of the revenue goes towards the cost of producing or acquiring the goods sold by the company. Since it's a negative number, this suggests that COGS is being subtracted as an expense, which is normal, but it’s presented this way because of the negative sign used in accounting for costs.
+
+In simpler terms, 41.4% of every ₦1 in revenue is spent on the cost of goods sold, which is a standard way to interpret how much the company is spending on production or procurement of the products it sells.
 
 
- 
+ Summary and Insights:
+The company demonstrates exceptionally high profitability across all metrics, with Net Profit, Operating Profit, and Gross Profit margins all significantly surpassing 100%. These figures suggest a highly efficient business model with very low costs relative to revenue, or potentially extraordinary one-time income.
+
+Cost management is clearly a strong point, with Operating Expenses and Depreciation/Amortization being relatively small compared to the overall revenue, resulting in a large Operating Profit.
+
+The COGS figure indicates that 41.4% of the revenue is spent on production, which is quite reasonable for many types of businesses.
+
+However, the margins are much higher than typical industry standards, suggesting that this business is either highly specialized, very efficient, or possibly benefiting from non-recurring gains.
+
+The next steps could involve investigating whether these high margins are sustainable or if any unusual events have inflated the figures (e.g., one-time gains or tax benefits).
+
+Conclusion:
+The financial performance of the company, as shown by these key ratios and figures, is remarkably strong. The high Net Profit Margin, Operating Margin, and Gross Profit Margin indicate that the company is very profitable, with low costs relative to revenue. These results suggest a very efficient operation, although further investigation into any unusual or non-recurring factors would be prudent to confirm the sustainability of this performance.
+
+If you need further analysis or additional insights, feel free to reach out!
+
+
+
+
 
 
 
