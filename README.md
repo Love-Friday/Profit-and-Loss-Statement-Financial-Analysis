@@ -50,6 +50,8 @@ In this project, I applied Pivot Tables to efficiently summarize and analyze the
 | Operating Expenses           | -₦699,197,468.00   |
 | Cost of Goods Sold           | -₦3,712,506,264.00 |
 
+
+
 ### To Calculate Gross Profit 
 - Gross Profit Formula is
 - Gross Profit = Revenue − Cost of Goods Sold (COGS)
@@ -88,8 +90,9 @@ In this project, I applied Pivot Tables to efficiently summarize and analyze the
  - Operating Margin= 1.513 × 100= 151.3%
 
   ### Analyzing Financial Ratios:
+  I used the summarized data to calculate key financial ratios such as Gross Profit Margin, Operating Margin, and Net Profit Margin:
+  - Gross Profit Margin:
 
-I used the summarized data to calculate critical financial ratios such as Gross Profit Margin, Operating Margin, and Net Profit Margin. These ratios provided a clear view of the company’s profitability, efficiency, and cost management.
    
 #### Interpretation of Operating Margin:
 An operating margin of 151.3% indicates that the Operating Profit (EBIT) is more than one and a half times the Revenue, which seems very high and might be an unusual figure. This could suggest that the operating costs (such as COGS, depreciation, or operating expenses) are very low compared to revenue, or that there might be some other specific factors affecting the calculation.
@@ -118,6 +121,14 @@ Interpretation:
 A COGS Ratio of -41.4% means that 41.4% of the revenue goes towards the cost of producing or acquiring the goods sold by the company. Since it's a negative number, this suggests that COGS is being subtracted as an expense, which is normal, but it’s presented this way because of the negative sign used in accounting for costs.
 
 In simpler terms, 41.4% of every ₦1 in revenue is spent on the cost of goods sold, which is a standard way to interpret how much the company is spending on production or procurement of the products it sells.
+
+Dynamic Analysis:
+
+The Pivot Table allowed for easy filtering and slicing of data by Month, Year, or Account Category, giving flexibility to analyze financial performance across different time periods or categories.
+I also made use of Pivot Table features such as Grouping and Summarizing to further segment and analyze the data by specific criteria (e.g., monthly or yearly performance).
+
+Conclusion:
+By leveraging the power of Pivot Tables, I was able to streamline the process of summarizing and analyzing complex financial data. The insights gained from this analysis, including key profit calculations and financial ratios, provided a clear understanding of the company's financial performance and enabled more informed decision-making.
 
 
  Summary and Insights:
