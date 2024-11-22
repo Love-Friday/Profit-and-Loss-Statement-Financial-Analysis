@@ -41,12 +41,20 @@ The dataset I will be working with includes the following columns:
 - Add Other Income(e.g. Dividend Income, Exchange Loss/Gain, Interest Income, Gain/Loss on Sales of Asset)  ₦337,198,885.00
 - Therefore; Operating Profit + Other Income=13,540,590,506.00+337,198,885.00=13,877,789,391.00
 - Subtract Other Expenses(e.g. Interest Expense, Taxation) -₦169,499,424.00
-- Net Profit=13,877,789,391.00−(−₦169,499,424.00)=13,877,789,391.00+169,499,424.00
-Final Net Profit = ₦14,047,288,815.00
+- Net Profit=13,877,789,391.00−(−₦169,499,424.00)=13,877,789,391.00 + 169,499,424.00
+- Final Net Profit = ₦14,047,288,815.00
 
  ### To Calculate Operating Margin
- - Operating Margin measures the percentage of revenue that remains after covering operating expenses.
+ - Operating Margin is a profitability ratio that measures the percentage of revenue that remains after covering operating expenses, excluding interest and taxes
  - Formula: Operating Margin = Operating Profit(EBIT) /Revenue * 100
+ - Operating Marin = ₦13,540,590,506.00 / ₦8,945,729,507.00 = 1.513
+ - Multiplied by 100
+     - = 1.513 * 100
+ - Operating Margin= 1.513 × 100= 151.3%
+ - 
+#### Interpretation of Operating Margin:
+An operating margin of 151.3% indicates that your Operating Profit (EBIT) is more than one and a half times your Revenue, which seems very high and might be an unusual figure. This could suggest that the operating costs (such as COGS, depreciation, or operating expenses) are very low compared to revenue, or that there might be some other specific factors affecting the calculation.
+       
 
  ### To Calculate Net Profit Margin
  - Net Profit Margin measures the percentage of revenue that becomes profit after all expenses including tax and interest.
@@ -70,5 +78,4 @@ Final Net Profit = ₦14,047,288,815.00
 
 
 
-                          =12,658,235,771.00−(−₦699,197,468.00)=12,658,235,771.00+699,197,468.00=13,357,433,239.00
 
