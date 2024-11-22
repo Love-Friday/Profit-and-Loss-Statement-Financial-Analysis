@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/6600ae18-724d-4064-a2d3-a6311e11c1ba)# Profit-and-Loss-Statement-Financial-Analysis
+# Profit-and-Loss-Statement-Financial-Analysis
 
 ## Project Overview
 As part of our ongoing efforts to enhance our financial oversight and performance evaluation, we are initiating a project focused on  analyzing the Profit and Loss (P&L) statements across our six branches, in South-South Nigeria, over the four-year period from 2020 to 2023. This analysis will provide valuable  insights into our financial activities and help inform strategic decisions moving forward. 
