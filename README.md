@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/6abb2f82-4bd4-44a7-affc-2964d3b9dc3b)# Profit-and-Loss-Statement-Financial-Analysis
+# Profit-and-Loss-Statement-Financial-Analysis
 
 ## Project Overview
 As part of our ongoing efforts to enhance our financial oversight and performance evaluation, we are initiating a project focused on  analyzing the Profit and Loss (P&L) statements across our six branches, in South-South Nigeria, over the four-year period from 2020 to 2023. This analysis will provide valuable  insights into our financial activities and help inform strategic decisions moving forward. 
@@ -51,18 +51,24 @@ The dataset I will be working with includes the following columns:
  - Multiplied by 100
      - = 1.513 * 100
  - Operating Margin= 1.513 × 100= 151.3%
- - 
+   
 #### Interpretation of Operating Margin:
-An operating margin of 151.3% indicates that your Operating Profit (EBIT) is more than one and a half times your Revenue, which seems very high and might be an unusual figure. This could suggest that the operating costs (such as COGS, depreciation, or operating expenses) are very low compared to revenue, or that there might be some other specific factors affecting the calculation.
-       
-
+An operating margin of 151.3% indicates that the Operating Profit (EBIT) is more than one and a half times the Revenue, which seems very high and might be an unusual figure. This could suggest that the operating costs (such as COGS, depreciation, or operating expenses) are very low compared to revenue, or that there might be some other specific factors affecting the calculation.
+    
  ### To Calculate Net Profit Margin
- - Net Profit Margin measures the percentage of revenue that becomes profit after all expenses including tax and interest.
+ - Net Profit Margin is a profitability ratio that shows what percentage of revenue remains after all expenses (including operating expenses, interest, taxes, and other expenses) have 
+ been deducted. It is calculated by dividing Net Profit by Revenue.
  - Formula: Net Profit Margin = Net Profit/ Revenue * 100
+ - ₦14,047,288,815.00/ ₦8,945,729,507.00 = 1.571
+ - Net Profit Margin= 1.571 × 100 = 157.1%
+ - Therefore, Net Profit Margin: 157.1%
+
+Interpretation:
+A Net Profit Margin of 157.1% suggests that your Net Profit is more than one and a half times your Revenue, which is highly unusual. This indicates that the company's expenses (including operating expenses, interest, taxes, etc.) are extremely low relative to the revenue, or there might be other extraordinary income or factors influencing this figure.
 
 ### To Calculate Cost of Goods Sold Ratio(COGS) 
 - Cost of Goods Sold Ratio shows the proportion of revenue that is spent on producing goods or services
-- Formula: COGS Ration = Cost of Goods Sold(COGS)/ Revenue * 100 
+- Formula: COGS Ratio = Cost of Goods Sold(COGS)/ Revenue * 100 
 
 
  
