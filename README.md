@@ -25,10 +25,11 @@ The dataset is a CSV file containing 40,000 rows and 5 columns. The columns are 
 1. I familiarized myself with the dataset by reviewing it to understand its structure and the various types of financial data available.
 2. In a new column called "Transaction Types", I use Excel's nestd IF functions to catgeorize the transactions from the "Account Category" column as either "Revenue" or "Expenses". 
    
-     '''=IF(C2="Other Expenses","Expenses",IF(C2="Other Income","Revenue",IF(C2="Revenue","Revenue",IF(C2="Cost of Goods Sold","Expenses",IF(C2="Depreciation and 
-        Amortization","Expenses",IF(C2="Operating Expenses","Expenses",0))))))'''
+       =IF(C2="Other Expenses","Expenses",IF(C2="Other Income","Revenue",IF(C2="Revenue","Revenue",IF(C2="Cost of Goods Sold","Expenses",IF(C2="Depreciation and 
+        Amortization","Expenses",IF(C2="Operating Expenses","Expenses",0))))))
+   ![Screenshot 2024-12-17 124612](https://github.com/user-attachments/assets/ce759677-22d3-4b2c-95e8-9cc854dc82c1)
 
-3. Imported the dataset into Power BI for further transformation and analysis to meet specific requirements.
+4. Imported the dataset into Power BI for further transformation and analysis to meet specific requirements.
 
  ### Creating a Time Intelliegnce Calendar 
 4. From the date column, I created a calendar table to enable me
