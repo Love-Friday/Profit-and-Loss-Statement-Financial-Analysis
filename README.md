@@ -14,12 +14,11 @@ I analyzed the P&L data to understand revenue, expenses, and overall profitabili
 
 ## Dataset Structure
 The dataset is a CSV file containing 40,000 rows and 5 columns. The columns are as follows:
-
 1. ﻿﻿﻿Date: The date of the financial transaction.
-﻿﻿﻿2. Branch: The name of the branch where the transaction occurred.
+2. Branch: The name of the branch where the transaction occurred.
 3. Account Category: The category of the account (e.g., Revenue, Expense).
 4. Account Name: The specific account associated with the transaction (e.g., Salaries, Loan Income).
-﻿﻿﻿5. Amount (NGN): The monetary amount of the transaction, in Nigerian Naira.
+5. Amount (NGN): The monetary amount of the transaction, in Nigerian Naira.
 
 ##Data Organization:
 1. I familiarized myself with the dataset by reviewing it to understand its structure and the various types of financial data available.
@@ -27,6 +26,7 @@ The dataset is a CSV file containing 40,000 rows and 5 columns. The columns are 
    
        =IF(C2="Other Expenses","Expenses",IF(C2="Other Income","Revenue",IF(C2="Revenue","Revenue",IF(C2="Cost of Goods Sold","Expenses",IF(C2="Depreciation and 
         Amortization","Expenses",IF(C2="Operating Expenses","Expenses",0))))))
+   
    ![Screenshot 2024-12-17 124612](https://github.com/user-attachments/assets/ce759677-22d3-4b2c-95e8-9cc854dc82c1)
 
 4. Imported the dataset into Power BI for further transformation and analysis to meet specific requirements.
