@@ -21,6 +21,12 @@ The dataset is a CSV file containing 40,000 rows and 5 columns. The columns are 
 - ﻿﻿﻿Account Name: The specific account associated with the transaction (e.g., Salaries, Loan Income).
 ﻿﻿﻿- Amount (NGN): The monetary amount of the transaction, in Nigerian Naira.
 
+
+
+
+
+
+
 ##Data Organization:
 1. I familiarized myself with the dataset by reviewing it to understand its structure and the various types of financial data available.
 2. 
