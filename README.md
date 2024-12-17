@@ -2,6 +2,7 @@
 
 ## Introduction
 Client: 67Capital Ltd
+
 A company has reached out to me to analyze their financial data, specifically focusing on their Profit and Loss (P&L) statements. The dataset, which spans across six branches in South-South Nigeria from 2020 to 2023, requires a detailed financial analysis to provide insights into the company's revenue, expenses, and overall financial performance.
 
 ## Project Overview
