@@ -1,20 +1,32 @@
 # Profit-and-Loss-Statement-Financial-Analysis
 
+## Introduction
+Client: 67Capital Ltd
+A company has reached out to me to analyze their financial data, specifically focusing on their Profit and Loss (P&L) statements. The dataset, which spans across six branches in South-South Nigeria from 2020 to 2023, requires a detailed financial analysis to provide insights into the company's revenue, expenses, and overall financial performance.
+
 ## Project Overview
-As part of our ongoing efforts to enhance our financial oversight and performance evaluation, we are initiating a project focused on  analyzing the Profit and Loss (P&L) statements across our six branches, in South-South Nigeria, over the four-year period from 2020 to 2023. This analysis will provide valuable  insights into our financial activities and help inform strategic decisions moving forward. 
+As part of our ongoing efforts to enhance our financial oversight and performance evaluation, we are initiating a project focused on analyzing the Profit and Loss (P&L) statements across our six branches, in South-South Nigeria, over the four-year period from 2020 to 2023.
+This analysis will provide valuable insights into our financial activities and help inform strategic decisions moving forward.
 
-## Objective 
-to analyze P&L data to understand revenue, expenses, and overall profitability across our branches. By the end of this project, we expect to have a clear picture of each branch's financial health and actionable insights to improve performance. 
+## Objective
+I analyzed the P&L data to understand revenue, expenses, and overall profitability across branches. By the end of this project, we expect to have a clear picture of each branch's financial health and actionable insights to improve performance.
 
-## Data Structure
-The dataset I will be working with includes the following columns:
-1. Date: the date of the financial transaction.
-2. Branch: The name of the branch where the transaction occurred.
-3. Account Category: The category of the account(e.g., Revenue, Expense).
-4. Account Name: The specific account associated with the transaction (e.g., Salaries, Loan, Income).
-5. Amount (NGN): the monetary amount of the transaction, in Nigerian Naira.
+## Dataset Structure
+The dataset is a CSV file containing 40,000 rows and 5 columns. The columns are as follows:
+
+- ﻿﻿﻿Date: The date of the financial transaction.
+﻿﻿﻿- Branch: The name of the branch where the transaction occurred.
+- ﻿﻿﻿Account Category: The category of the account (e.g., Revenue, Expense).
+- ﻿﻿﻿Account Name: The specific account associated with the transaction (e.g., Salaries, Loan Income).
+﻿﻿﻿- Amount (NGN): The monetary amount of the transaction, in Nigerian Naira.
 
 ##Data Organization:
+1. I familiarized myself with the dataset by reviewing it to understand its structure and the various types of financial data available.
+2. 
+
+
+
+
 - First, I ensured the dataset was properly organized, with columns for Date, Branch, Account Category, Account Name, and Amount.
 - I extracted additional columns like Year and Month from the Date column to facilitate time-based analysis.
 
