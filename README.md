@@ -15,24 +15,28 @@ I analyzed the P&L data to understand revenue, expenses, and overall profitabili
 ## Dataset Structure
 The dataset is a CSV file containing 40,000 rows and 5 columns. The columns are as follows:
 
-- ﻿﻿﻿Date: The date of the financial transaction.
-﻿﻿﻿- Branch: The name of the branch where the transaction occurred.
-- ﻿﻿﻿Account Category: The category of the account (e.g., Revenue, Expense).
-- ﻿﻿﻿Account Name: The specific account associated with the transaction (e.g., Salaries, Loan Income).
-﻿﻿﻿- Amount (NGN): The monetary amount of the transaction, in Nigerian Naira.
-
-
-
-
-
-
+1. ﻿﻿﻿Date: The date of the financial transaction.
+﻿﻿﻿2. Branch: The name of the branch where the transaction occurred.
+3. Account Category: The category of the account (e.g., Revenue, Expense).
+4. Account Name: The specific account associated with the transaction (e.g., Salaries, Loan Income).
+﻿﻿﻿5. Amount (NGN): The monetary amount of the transaction, in Nigerian Naira.
 
 ##Data Organization:
 1. I familiarized myself with the dataset by reviewing it to understand its structure and the various types of financial data available.
-2. 
+2. In a new column called "Transaction Types", I use Excel's nestd IF functions to catgeorize the transactions from the "Account Category" column as either "Revenue" or "Expenses". 
+   
+     '''=IF(C2="Other Expenses","Expenses",IF(C2="Other Income","Revenue",IF(C2="Revenue","Revenue",IF(C2="Cost of Goods Sold","Expenses",IF(C2="Depreciation and 
+        Amortization","Expenses",IF(C2="Operating Expenses","Expenses",0))))))'''
+
+3. Imported the dataset into Power BI for further transformation and analysis to meet specific requirements.
+
+ ### Creating a Time Intelliegnce Calendar 
+4. From the date column, I created a calendar table to enable me
+   
+ 
 
 
-
+rewrite in a way it wont sound co nfusing to my viewers, based on the columns we have. in a new column named transaction types, based on account category column, i  categorize the transactions into revenues and expenses using the nested if functions in ms excel. 
 
 - First, I ensured the dataset was properly organized, with columns for Date, Branch, Account Category, Account Name, and Amount.
 - I extracted additional columns like Year and Month from the Date column to facilitate time-based analysis.
