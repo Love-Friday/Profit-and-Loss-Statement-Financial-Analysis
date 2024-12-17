@@ -21,7 +21,7 @@ The dataset is a CSV file containing 40,000 rows and 5 columns. The columns are 
 5. Amount (NGN): The monetary amount of the transaction, in Nigerian Naira.
    ![Screenshot 2024-12-17 125316](https://github.com/user-attachments/assets/0f16e917-93f2-4a89-ad75-abb229cb4a59)
    
-##Data Organization:
+##Data Transformation Processes:
 1. I familiarized myself with the dataset by reviewing it to understand its structure and the various types of financial data available.
 2. In a new column called "Transaction Types", I use Excel's nestd IF functions to catgeorize the transactions from the "Account Category" column as either "Revenue" or "Expenses". 
    
@@ -35,6 +35,26 @@ The dataset is a CSV file containing 40,000 rows and 5 columns. The columns are 
  ### Creating a Time Intelliegnce Calendar 
 4. From the date column, I created a calendar table to enable me
    ![Screenshot 2024-12-17 123321](https://github.com/user-attachments/assets/e6a90e1f-98fa-40ba-85e9-5aac9c68247f)
+
+###  DAX Formula for Total Revenue
+All calculations were carried out using Power BI tool, but to carry you along in this analysis, I used the Pivot Table in Excel to summarise the financial data above in terms of account category and amount thus we have;
+
+| Account Category             | Amount             | 
+|------------------------------|--------------------|
+| Revenue                      | ₦8,945,729,507.00  | 
+| Other Income                 | ₦337,198,885.00    | 
+| Other Expenses               | -₦169,499,424.00   | 
+| Depreciation & Amortization  | -₦183,157,267.00   |
+| Operating Expenses           | -₦699,197,468.00   |
+| Cost of Goods Sold           | -₦3,712,506,264.00 |
+
+5. Total Revenue = Revenue + Other Income
+    - DAX Formula for Total Revenue:
+
+      = CALCULATE(SUM('P&L'[Amount]),'P&L'[Account Category] = "Revenue" || 'P&L'[Account Category] = "Other Income")
+        
+
+   
 
    
  
