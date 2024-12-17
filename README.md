@@ -36,7 +36,7 @@ The dataset is a CSV file containing 40,000 rows and 5 columns. The columns are 
 4. From the date column, I created a calendar table to enable me
    ![Screenshot 2024-12-17 123321](https://github.com/user-attachments/assets/e6a90e1f-98fa-40ba-85e9-5aac9c68247f)
 
-###  DAX Formula for Total Revenue
+### Using DAX Formula to Calculate Total Revenue, Total Expenses & Net Profit. 
 All calculations were carried out using Power BI tool, but to carry you along in this analysis, I used the Pivot Table in Excel to summarise the financial data above in terms of account category and amount thus we have;
 
 | Account Category             | Amount             | 
@@ -52,6 +52,20 @@ All calculations were carried out using Power BI tool, but to carry you along in
     - DAX Formula for Total Revenue:
 
       = CALCULATE(SUM('P&L'[Amount]),'P&L'[Account Category] = "Revenue" || 'P&L'[Account Category] = "Other Income")
+
+Result:
+Revenue = ₦8,945,729,507.00
+Other Income = ₦337,198,885.00
+TOTAL REVENUE = ₦9,282,928,392.00; approximately ₦9.28b. 
+
+6. Total Expenses
+
+
+
+
+7. Net Profit
+
+      
         
 
    
