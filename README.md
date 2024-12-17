@@ -32,6 +32,8 @@ The dataset is a CSV file containing 40,000 rows and 5 columns. The columns are 
 
  ### Creating a Time Intelliegnce Calendar 
 4. From the date column, I created a calendar table to enable me
+   ![Screenshot 2024-12-17 123321](https://github.com/user-attachments/assets/e6a90e1f-98fa-40ba-85e9-5aac9c68247f)
+
    
  
 
