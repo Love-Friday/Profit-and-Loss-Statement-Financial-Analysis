@@ -45,8 +45,9 @@ Total Revenue;
        =CALCULATE ( SUM ( 'p and l'[Amount]), 'p and l'[Transaction Type] = "Revenue")
 
        
-
 This means sum the amount column where the transaxction type is "REVENUE" only.
+![Screenshot 2024-12-20 100014](https://github.com/user-attachments/assets/d2508db1-150d-4314-94d5-142c04a3078e)
+
 
 
 
