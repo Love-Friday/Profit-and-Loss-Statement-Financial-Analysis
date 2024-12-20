@@ -37,20 +37,10 @@ The dataset is a CSV file containing 40,000 rows and 5 columns. The columns are 
    ![Screenshot 2024-12-17 123321](https://github.com/user-attachments/assets/e6a90e1f-98fa-40ba-85e9-5aac9c68247f)
 
 ### Using DAX Formula to Calculate Total Revenue, Total Expenses & Net Profit. 
-All calculations were carried out using Power BI tool, but to carry you along in this analysis, I used the Pivot Table in Excel to summarise the financial data above in terms of account category and amount thus we have;
-
-| Account Category             | Amount             | 
-|------------------------------|--------------------|
-| Revenue                      | ₦8,945,729,507.00  | 
-| Other Income                 | ₦337,198,885.00    | 
-| Other Expenses               | -₦169,499,424.00   | 
-| Depreciation & Amortization  | -₦183,157,267.00   |
-| Operating Expenses           | -₦699,197,468.00   |
-| Cost of Goods Sold           | -₦3,712,506,264.00 |
-
 5. To calculate the Total Revenue using DAX Functions; I used the tranaction type column(which consist of Revenue and Expenses) and amount column directly. 
       Total Revenue = CALCULATE ( SUM ( 'p and l'[Amount]), 'p and l'[Transaction Type] = "Revenue")
 This means sum the amount column where the transaxction type is "REVENUE" only.
+![Screenshot 2024-12-20 100014](https://github.com/user-attachments/assets/b506f398-f129-47a5-b6ab-8e3759db04ec)
 
 
 Result:
