@@ -48,7 +48,7 @@ Total Revenue;
 This means sum the amount column where the transaxction type is "REVENUE" only.
 ![Screenshot 2024-12-20 100014](https://github.com/user-attachments/assets/d2508db1-150d-4314-94d5-142c04a3078e)
 
-
+6. Total Expenses
 
 
 Result:
@@ -57,11 +57,16 @@ Other Income = ₦337,198,885.00
 TOTAL REVENUE = ₦9,282,928,392.00; approximately ₦9.28b. 
 
 6. Total Expenses
+   To calculate the Total Expenses using DAX Functions; I used the tranaction type column(which consist of Revenue and Expenses) and amount column directly.
 
+   Total Expenses;
 
+       =CALCULATE ( SUM ( 'p and l'[Amount] ), 'p and l'[Transaction Type] = "Expenses")
 
+   This means sum the amount column where the transaxction type is "EXPENSES" only.
+   
 
-7. Net Profit
+8. Net Profit
 
       
         
