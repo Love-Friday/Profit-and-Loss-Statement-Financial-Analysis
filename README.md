@@ -49,15 +49,7 @@ This means sum the amount column where the transaxction type is "REVENUE" only.
 ![Screenshot 2024-12-20 100014](https://github.com/user-attachments/assets/d2508db1-150d-4314-94d5-142c04a3078e)
 
 6. Total Expenses
-
-
-Result:
-Revenue = ₦8,945,729,507.00
-Other Income = ₦337,198,885.00
-TOTAL REVENUE = ₦9,282,928,392.00; approximately ₦9.28b. 
-
-6. Total Expenses
-   To calculate the Total Expenses using DAX Functions; I used the tranaction type column(which consist of Revenue and Expenses) and amount column directly.
+   To calculate the Total Expenses using DAX Functions; I used the transaction type column(which consist of Revenue and Expenses) and amount column directly.
 
    Total Expenses;
 
@@ -66,11 +58,17 @@ TOTAL REVENUE = ₦9,282,928,392.00; approximately ₦9.28b.
    This means sum the amount column where the transaxction type is "EXPENSES" only.
    ![Screenshot 2024-12-20 101758](https://github.com/user-attachments/assets/135a21a4-46d5-4da6-bb80-99e2b14d5b6c)
 
-8. Net Profit
+7. Net Profit
    To calculate Net Profit = Total Revenue - Total Expenses
+   
    Using Tables
    ![Screenshot 2024-12-20 103519](https://github.com/user-attachments/assets/1e004a0c-2471-4875-a0f3-7e1ffd463404)
+   
    Approximately:
+   ![Screenshot 2024-12-20 103816](https://github.com/user-attachments/assets/c910eda3-2176-4697-aefe-0da08bd370e9)
+
+   8. Profit Margin
+
    
 
 
