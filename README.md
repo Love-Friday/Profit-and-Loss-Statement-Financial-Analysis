@@ -69,10 +69,14 @@ TOTAL REVENUE = ₦9,282,928,392.00; approximately ₦9.28b.
 8. Net Profit
    To calculate Net Profit = Total Revenue - Total Expenses
    Using Tables
+   ![Screenshot 2024-12-20 103519](https://github.com/user-attachments/assets/1e004a0c-2471-4875-a0f3-7e1ffd463404)
+   Approximately:
+   
+
 
    
    
-NOTE: I used the + sign in the DAX function because the total expenses is already in - symbol. To get the correct net profit, I added it which is 
+
 
    
 
