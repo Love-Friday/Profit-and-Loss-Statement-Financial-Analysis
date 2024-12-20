@@ -48,10 +48,10 @@ All calculations were carried out using Power BI tool, but to carry you along in
 | Operating Expenses           | -₦699,197,468.00   |
 | Cost of Goods Sold           | -₦3,712,506,264.00 |
 
-5. Total Revenue = Revenue + Other Income
-    - DAX Formula for Total Revenue:
+5. To calculate the Total Revenue using DAX Functions; I used the tranaction type column(which consist of Revenue and Expenses) and amount column directly. 
+      Total Revenue = CALCULATE ( SUM ( 'p and l'[Amount]), 'p and l'[Transaction Type] = "Revenue")
+This means sum the amount column where the transaxction type is "REVENUE" only.
 
-      = CALCULATE(SUM('P&L'[Amount]),'P&L'[Account Category] = "Revenue" || 'P&L'[Account Category] = "Other Income")
 
 Result:
 Revenue = ₦8,945,729,507.00
