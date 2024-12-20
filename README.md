@@ -64,9 +64,19 @@ TOTAL REVENUE = ₦9,282,928,392.00; approximately ₦9.28b.
        =CALCULATE ( SUM ( 'p and l'[Amount] ), 'p and l'[Transaction Type] = "Expenses")
 
    This means sum the amount column where the transaxction type is "EXPENSES" only.
-   
+   ![Screenshot 2024-12-20 101758](https://github.com/user-attachments/assets/135a21a4-46d5-4da6-bb80-99e2b14d5b6c)
 
 8. Net Profit
+   To calculate Net Profit = Total Revenue - Total Expenses
+   Using Tables
+
+   
+   
+NOTE: I used the + sign in the DAX function because the total expenses is already in - symbol. To get the correct net profit, I added it which is 
+
+   
+
+   
 
       
         
@@ -105,14 +115,11 @@ In this project, I applied Pivot Tables to efficiently summarize and analyze the
 2. Operating Profit (EBIT): I calculated Operating Profit by subtracting Operating Expenses and Depreciation & Amortization from the Gross Profit.
 3. Net Profit: I calculated Net Profit by adding Other Income and subtracting Other Expenses from Operating Profit.
 
-| Account Category             | Amount             | 
-|------------------------------|--------------------|
-| Revenue                      | ₦8,945,729,507.00  | 
-| Other Income                 | ₦337,198,885.00    | 
-| Other Expenses               | -₦169,499,424.00   | 
-| Depreciation & Amortization  | -₦183,157,267.00   |
-| Operating Expenses           | -₦699,197,468.00   |
-| Cost of Goods Sold           | -₦3,712,506,264.00 |
+
+Revenue                      ₦8,945,729,507.00  Other Income                 ₦337,198,885.00     
+ Other Expenses               -₦169,499,424.00    
+ Depreciation & Amortization   -₦183,157,267.00   Operating Expenses            -₦699,197,468.00   
+ Cost of Goods Sold            -₦3,712,506,264.00 
 
 
 
