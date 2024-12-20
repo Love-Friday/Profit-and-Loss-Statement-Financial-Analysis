@@ -21,7 +21,7 @@ The dataset is a CSV file containing 40,000 rows and 5 columns. The columns are 
 5. Amount (NGN): The monetary amount of the transaction, in Nigerian Naira.
    ![Screenshot 2024-12-17 125316](https://github.com/user-attachments/assets/0f16e917-93f2-4a89-ad75-abb229cb4a59)
    
-##Data Transformation Processes:
+## Data Transformation Processes:
 1. I familiarized myself with the dataset by reviewing it to understand its structure and the various types of financial data available.
 2. In a new column called "Transaction Types", I use Excel's nestd IF functions to catgeorize the transactions from the "Account Category" column as either "Revenue" or "Expenses". 
    
