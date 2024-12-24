@@ -67,7 +67,16 @@ This means sum the amount column where the transaxction type is "REVENUE" only.
    Approximately:
    ![Screenshot 2024-12-20 103816](https://github.com/user-attachments/assets/c910eda3-2176-4697-aefe-0da08bd370e9)
 
-   8. Profit Margin
+   8. Profit Margin: is a financial metric that shows the percentage of revenue a company retains as profit after accounting for all its expenses. It is a measure of a company’s profitability and efficiency in managing its costs.
+
+The formula for profit margin is:
+
+Profit Margin = ( Net Profit/ Revenue) × 100
+DAX fORMULA=
+  
+            = DIVIDE([Net Profit], [Total Revenue], 0)
+
+            
 
    
 
