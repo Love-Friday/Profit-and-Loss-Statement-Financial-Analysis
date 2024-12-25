@@ -113,8 +113,8 @@ The main source of revenue was Sales as it is with other branches while majority
 #### Insights on Delta Analysis
 Delta experienced an increase in revenue in 2023 after a long decline in revenue over the years. 
 Also, their profit margin moved from 39.26% in 2022 to 47.21% indicating a good growth in revenue. 
+![Screenshot 2024-12-25 022827](https://github.com/user-attachments/assets/678f45c1-a3ff-42c4-ab90-e6881c151ffb)
 
-"C:\Users\Hi-TGCS\Pictures\Screenshots\Screenshot 2024-12-25 022536.png"
 ## Summary of Key Findings 
 The South-South region has been a good market for the company for the past 4 years, generating over 9bn NGN in revenue and a Net Profit of 4.52bn NGN indicating a 48.67% in Profit Margin. 
 
