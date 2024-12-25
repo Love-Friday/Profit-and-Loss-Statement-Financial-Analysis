@@ -100,6 +100,19 @@ Also, their profit margin moved from 39.26% in 2022 to 47.21% indicating a good 
 
 ![Screenshot 2024-12-25 012047](https://github.com/user-attachments/assets/005fae3c-4050-4626-a403-91d04e768963)
 
+## Summary of Key Findings 
+The South-South region has been a good market for the company for the past 4 years, generating over 9bn NGN in revenue and a Net Profit of 4.52bn NGN indicating a 48.67% in Profit Margin. 
+Akwa Ibom generated the highest revenue of about 1.67bn NGN in the 4-year period but experienced a decline in revenue from 2022 to 2023. 
+Delta generated the least revenue and had the highest expenditure in the 4-year period amounting to 844.50M NGN. Despite the decline, in 2023 they experienced an increase in revenue and a decrease in expenditure. 
+
+## Recommendations
+1. Given that Akwa Ibom generated the highest revenue over the 4-year period, but saw a decline from 2022 to 2023, the company should investigate the cause of the revenue drop. This could include market conditions, competition, or operational inefficiencies. It is recommended to strengthen the sales and marketing strategy in this region, perhaps by introducing new products or promotional activities tailored to local demand, to reignite growth and maintain Akwa Ibom's revenue leadership in the South-South region.
+
+2. The management should conduct a comprehensive audit of the company's operations in the high-expense states to identify areas of inefficiency or waste.
+
+3. To increase sales across all states, the company should expand product availability through multiple channels, particularly in regions where sales are underperforming. Additionally, enhancing customer retention and driving repeat purchases can be achieved by launching or refining loyalty programs in these areas. It is also crucial to gain a deep understanding of each state’s unique market needs, preferences, and demographics to tailor strategies effectively.
+
+
 
 
 
