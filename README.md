@@ -1,5 +1,17 @@
 # Profit-and-Loss-Statement-Financial-Analysis
 
+ Table of Contents
+1. [Introduction](#introduction)
+2. [Project Overview](#project-overview)
+3. [Objective](#objective)
+4. [Data Structure](#data-structure)
+5. [Data Transformation Process](#data-transformation-process)
+6. [Objective](#objective)
+7. [Insights](#insights)
+8. [Summary of Key Findings](#summary-of-key-findings)
+9. [Recommendations](#recommendations)
+
+
 ## Introduction
 Client: 67Capital Ltd
 
