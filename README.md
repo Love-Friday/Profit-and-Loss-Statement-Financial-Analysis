@@ -26,11 +26,11 @@ I analyzed the P&L data to understand revenue, expenses, and overall profitabili
 
 ## Dataset Structure
 The dataset is a CSV file containing 40,000 rows and 5 columns. The columns are as follows:
-1. ﻿﻿﻿Date: The date of the financial transaction.
-2. Branch: The name of the branch where the transaction occurred.
-3. Account Category: The category of the account (e.g., Revenue, Expense).
-4. Account Name: The specific account associated with the transaction (e.g., Salaries, Loan Income).
-5. Amount (NGN): The monetary amount of the transaction, in Nigerian Naira.
+1. **﻿﻿﻿Date:** The date of the financial transaction.
+2. **Branch:** The name of the branch where the transaction occurred.
+3. **Account Category:** The category of the account (e.g., Revenue, Expense).
+4. **Account Name:** The specific account associated with the transaction (e.g., Salaries, Loan Income).
+5. **Amount (NGN):** The monetary amount of the transaction, in Nigerian Naira.
    ![Screenshot 2024-12-17 125316](https://github.com/user-attachments/assets/0f16e917-93f2-4a89-ad75-abb229cb4a59)
    
 ## Data Transformation Processes:
