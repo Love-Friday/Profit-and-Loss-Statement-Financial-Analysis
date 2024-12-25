@@ -76,6 +76,17 @@ DAX fORMULA=
   
             = DIVIDE([Net Profit], [Total Revenue], 0)
 
+![Screenshot 2024-12-25 010558](https://github.com/user-attachments/assets/d15c646e-bbae-4b1e-a91e-0d8104362786)
+
+## Insights
+The south-south branches of 67 Capital Ltd generated 9.28bn NGN in revenue and utilized 4.77bn NGN in expenses, with a Net Profit of 4.52bn NGN which is a 48.67% profit margin in the space of 4 years, indicating a healthy market/business for the company in the region. 
+
+The Akwa Ibom branch generated the most revenue for the company, followed by Rivers with the least being Delta. 
+
+Delta also had the highest Expenditure within the region.
+
+
+
             
 
    
