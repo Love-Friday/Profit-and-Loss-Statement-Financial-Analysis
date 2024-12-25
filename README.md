@@ -1,5 +1,8 @@
 # Profit-and-Loss-Statement-Financial-Analysis
 
+![Screenshot 2024-12-25 022827](https://github.com/user-attachments/assets/0ecda774-cd7a-47d3-8f8b-f9e55a90f5b3)
+
+
  Table of Contents
 1. [Introduction](#introduction)
 2. [Project Overview](#project-overview)
