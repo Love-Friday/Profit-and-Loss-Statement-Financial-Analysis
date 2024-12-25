@@ -92,10 +92,9 @@ Akwa Ibom had their best year in 2021 generating over 470M NGN in revenue and ut
 They experienced a sharp decline in revenue in the following years which raises concern. 
 The main source of revenue was Sales as it is with other branches while majority of the expenditures were on Cost of Sales i.e. cost of producing the goods sold. 
 
+![Screenshot 2024-12-25 012341](https://github.com/user-attachments/assets/0027d064-e9ec-4340-9c79-6bf271699eca)
 
-
-
-Insights on Akwa Ibom Analysis
+Insights on Delta Analysis
 Delta experienced an increase in revenue in 2023 after a long decline in revenue over the years. 
 Also, their profit margin moved from 39.26% in 2022 to 47.21% indicating a good growth in revenue. 
 
