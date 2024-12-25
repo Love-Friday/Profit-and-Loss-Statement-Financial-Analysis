@@ -35,22 +35,26 @@ The dataset is a CSV file containing 40,000 rows and 5 columns. The columns are 
    
 ## Data Transformation Processes:
 1. I familiarized myself with the dataset by reviewing it to understand its structure and the various types of financial data available.
-2. In a new column called "Transaction Types", I use Excel's nestd IF functions to catgeorize the transactions from the "Account Category" column as either "Revenue" or "Expenses". 
+2. In a newly created column titled "Transaction Types," I employ nested IF functions in Excel to classify the entries from the "Account Category" column into two distinct categories: "Revenue" or "Expenses."
    
        =IF(C2="Other Expenses","Expenses",IF(C2="Other Income","Revenue",IF(C2="Revenue","Revenue",IF(C2="Cost of Goods Sold","Expenses",IF(C2="Depreciation and 
         Amortization","Expenses",IF(C2="Operating Expenses","Expenses",0))))))
    
    ![Screenshot 2024-12-17 124612](https://github.com/user-attachments/assets/ce759677-22d3-4b2c-95e8-9cc854dc82c1)
 
-4. Imported the dataset into Power BI for further transformation and analysis to meet specific requirements.
+3. Imported the dataset into Power BI for further transformation and analysis to meet specific requirements.
 
- ### Creating a Time Intelliegnce Calendar 
-4. From the date column, I created a calendar table to enable me
+ ### Creating a Time Intelliegnce Calendar
+ 4. To enhance data analysis, I utilized time intelligence to create a new “Calendar” Table, which includes key time dimensions: year, month, and quarter. This
+    structure enables deeper insights by simplifying time-based aggregations  and calculations.
+    
+5. I modeled the calendar table alongside the financial dataset, establishing a one-to-many relationship between the two. This setup provided a robust foundation for the subsequent data visualization process, enabling more efficient exploration and interpretation of time- based trends. 
+
    ![Screenshot 2024-12-17 123321](https://github.com/user-attachments/assets/e6a90e1f-98fa-40ba-85e9-5aac9c68247f)
 
 ### Using DAX Formula to Calculate Total Revenue, Total Expenses & Net Profit. 
 
-5. To calculate the Total Revenue using DAX Functions; I used the tranaction type column(which consist of Revenue and Expenses) and amount column directly.
+6. To calculate the Total Revenue using DAX Functions; I used the tranaction type column(which consist of Revenue and Expenses) and amount column directly.
 
 Total Revenue;
 
@@ -60,7 +64,7 @@ Total Revenue;
 This means sum the amount column where the transaxction type is "REVENUE" only.
 ![Screenshot 2024-12-20 100014](https://github.com/user-attachments/assets/d2508db1-150d-4314-94d5-142c04a3078e)
 
-6. Total Expenses
+7. Total Expenses
    To calculate the Total Expenses using DAX Functions; I used the transaction type column(which consist of Revenue and Expenses) and amount column directly.
 
    Total Expenses;
@@ -70,7 +74,7 @@ This means sum the amount column where the transaxction type is "REVENUE" only.
    This means sum the amount column where the transaxction type is "EXPENSES" only.
    ![Screenshot 2024-12-20 101758](https://github.com/user-attachments/assets/135a21a4-46d5-4da6-bb80-99e2b14d5b6c)
 
-7. Net Profit
+8. Net Profit
    To calculate Net Profit = Total Revenue - Total Expenses
    
    Using Tables
@@ -79,7 +83,7 @@ This means sum the amount column where the transaxction type is "REVENUE" only.
    Approximately:
    ![Screenshot 2024-12-20 103816](https://github.com/user-attachments/assets/c910eda3-2176-4697-aefe-0da08bd370e9)
 
-   8. Profit Margin: is a financial metric that shows the percentage of revenue a company retains as profit after accounting for all its expenses. It is a measure of a company’s profitability and efficiency in managing its costs.
+9. Profit Margin: is a financial metric that shows the percentage of revenue a company retains as profit after accounting for all its expenses. It is a measure of a company’s profitability and efficiency in managing its costs.
 
 The formula for profit margin is:
 
