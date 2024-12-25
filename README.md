@@ -85,6 +85,17 @@ The Akwa Ibom branch generated the most revenue for the company, followed by Riv
 
 Delta also had the highest Expenditure within the region.
 
+![Screenshot 2024-12-25 011136](https://github.com/user-attachments/assets/471b5963-0216-459a-a4c5-783f843142e4)
+
+Insights on Akwa Ibom Analysis
+Akwa Ibom had their best year in 2021 generating over 470M NGN in revenue and utilizing below 200M NGN in expenditure with a profit margin of 53.01%.
+They experienced a sharp decline in revenue in the following years which raises concern. 
+The main source of revenue was Sales as it is with other branches while majority of the expenditures were on Cost of Sales i.e. cost of producing the goods sold. 
+
+
+
+
+
 
 
             
