@@ -95,6 +95,16 @@ The main source of revenue was Sales as it is with other branches while majority
 
 
 
+Insights on Akwa Ibom Analysis
+Delta experienced an increase in revenue in 2023 after a long decline in revenue over the years. 
+Also, their profit margin moved from 39.26% in 2022 to 47.21% indicating a good growth in revenue. 
+
+![Screenshot 2024-12-25 012047](https://github.com/user-attachments/assets/005fae3c-4050-4626-a403-91d04e768963)
+
+
+
+
+
 
 
 
