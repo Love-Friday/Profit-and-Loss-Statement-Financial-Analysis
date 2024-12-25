@@ -99,14 +99,14 @@ Delta also had the highest Expenditure within the region.
 
 ![Screenshot 2024-12-25 011136](https://github.com/user-attachments/assets/471b5963-0216-459a-a4c5-783f843142e4)
 
-Insights on Akwa Ibom Analysis
+#### Insights on Akwa Ibom Analysis
 Akwa Ibom had their best year in 2021 generating over 470M NGN in revenue and utilizing below 200M NGN in expenditure with a profit margin of 53.01%.
 They experienced a sharp decline in revenue in the following years which raises concern. 
 The main source of revenue was Sales as it is with other branches while majority of the expenditures were on Cost of Sales i.e. cost of producing the goods sold. 
 
 ![Screenshot 2024-12-25 012341](https://github.com/user-attachments/assets/0027d064-e9ec-4340-9c79-6bf271699eca)
 
-Insights on Delta Analysis
+#### Insights on Delta Analysis
 Delta experienced an increase in revenue in 2023 after a long decline in revenue over the years. 
 Also, their profit margin moved from 39.26% in 2022 to 47.21% indicating a good growth in revenue. 
 
@@ -114,6 +114,7 @@ Also, their profit margin moved from 39.26% in 2022 to 47.21% indicating a good 
 
 ## Summary of Key Findings 
 The South-South region has been a good market for the company for the past 4 years, generating over 9bn NGN in revenue and a Net Profit of 4.52bn NGN indicating a 48.67% in Profit Margin. 
+
 Akwa Ibom generated the highest revenue of about 1.67bn NGN in the 4-year period but experienced a decline in revenue from 2022 to 2023. 
 Delta generated the least revenue and had the highest expenditure in the 4-year period amounting to 844.50M NGN. Despite the decline, in 2023 they experienced an increase in revenue and a decrease in expenditure. 
 
